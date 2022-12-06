@@ -24,7 +24,7 @@ const authRouter = require('./routers/auth.routes')
 
 
 // route middlewares
-app.use('/api/auth', authRouter)
+app.use('/api/user', authRouter)
 
 app.get('/', (req, res) => {
     res.json({
